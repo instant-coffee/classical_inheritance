@@ -5,17 +5,19 @@ require_relative 'parrot'
 require_relative 'chimpanzee'
 require_relative 'primate'
 require_relative 'flight'
+require 'pry'
 
 thor = Bat.new
 puts thor.blood_temp.inspect
 puts thor.sonar
-puts thor.fur.inspect
+p thor.fur
+
 puts thor.fly
 
-polly = Parrot.new("fuscia")
-puts polly.color
-puts polly.blood_temp
-polly.fly
+# polly = Parrot.new("fuscia")
+# puts polly.color
+# puts polly.blood_temp
+# puts polly.fly
 
 # mam = Mammal.new
 # puts mam.num_legs
@@ -23,6 +25,8 @@ polly.fly
 # zeus = Chimpanzee.new
 # puts zeus.num_legs
 
+# tina = Primate.new
+# p tina.num_legs
 
 
 

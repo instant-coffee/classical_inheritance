@@ -11,5 +11,6 @@ class Bat < Mammal
     @sonar = true
     @airspeed_velocity = 15 
   end
+
 end
 
