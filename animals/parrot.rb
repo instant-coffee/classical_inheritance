@@ -8,7 +8,7 @@ class Parrot < Animal
   def initialize(color)
     @color = color
     @blood_temp = "warm"
-    @airspeed_velocity = "60km/h"
+    @airspeed_velocity = 60
   end
 
 end

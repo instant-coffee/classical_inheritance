@@ -7,9 +7,9 @@ class Bat < Mammal
   attr_reader :sonar
 
   def initialize
-    super 
+    super
     @sonar = true
-    @airspeed_velocity = "15km/h"
+    @airspeed_velocity = 15 
   end
 end
 
